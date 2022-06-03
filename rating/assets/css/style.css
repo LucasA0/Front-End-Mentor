@@ -217,6 +217,16 @@ body {
     width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+    .background {
+        width: 340px;
+    }
+
+    .second-background {
+        width: 340px;
+    }
+}
+
 @keyframes fadeOut {
     from {
         opacity: 1;
